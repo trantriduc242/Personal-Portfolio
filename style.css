@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+    font-size: 16px; /* Base font size */
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0; /* Adjust padding */
+    text-align: center;
+  }
+  * Experience section container */
+.experience {
+  margin-bottom: 50px;
+}
+
+/* Experience item */
+.experience-item {
+  border-left: 2px solid #ddd; /* Add a vertical line */
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+/* Job title */
+.experience-item h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Company and dates */
+.experience-item p {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Responsibilities */
+.experience-item ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.education {
+    margin-bottom: 50px;
+  }
+  
+  .education-item {
+    border-left: 2px solid #ddd; /* Add a vertical line */
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .education-item h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .education-item p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .education-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center nav items */
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px; /* Increase padding for better spacing */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  section {
+    padding: 50px;
+    max-width: 800px; /* Limit content width for better readability */
+    margin: 0 auto; /* Center content */
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    line-height: 1.6;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #007bff;
+  }
+  
+  .project {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Add white background for better contrast */
+  }
+  
+  .project h3 {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .project ul {
+    padding-left: 20px;
+  }
+  
+  #contact p {
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+  }
+  
